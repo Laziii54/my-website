@@ -1,0 +1,56 @@
+@keyframes righttoLeft {
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+        to{
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+    /*---for_sale---*/
+     @keyframes for_text {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      @keyframes colorChange {
+        0% {
+          color: #333;
+        }
+        50% {
+          color: #ff6347;
+        }
+        100% {
+          color: #333;
+        }
+      }
+    /*---for_sale---*/
+      @keyframes messUp {
+        0% {
+          transform: rotate(0deg) translate(0, 0);
+          opacity: 0;
+        }
+        25% {
+          transform: rotate(10deg) translate(-20px, -10px);
+          opacity: 0.7;
+        }
+        50% {
+          transform: rotate(-5deg) translate(15px, -25px);
+          opacity: 0.9;
+        }
+        75% {
+          transform: rotate(5deg) translate(-10px, 10px);
+          opacity: 1;
+        }
+        100% {
+          transform: rotate(0deg) translate(0, 0);
+          opacity: 1;
+        }
+      }
+      
+      

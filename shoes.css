@@ -1,0 +1,34 @@
+@import url('for_fonts.css');
+body {
+    margin: 0;
+    height: 3000px;
+    background: #f0f0f0;
+  }
+
+  
+
+  .main-container {
+    filter: brightness(0.7);
+    margin-top: 10vh;
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    position: relative;
+    background-color: white !important;
+    color: white !important;
+  }
+
+  .main_pic {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0);
+    transition: transform 0.05s ease-out;
+  }
+  .header_pic{
+    width: 10vh;
+  }
+  li{
+    margin-left: 3vh;
+  }
+  
+  

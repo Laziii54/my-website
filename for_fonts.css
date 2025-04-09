@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "bold";
+    src: url(for.text.with.bold.ttf);
+}
+@font-face {
+    font-family: "for_heading";
+    src: url(bold.text.ttf);
+}
+@font-face {
+    font-family: "for_text";
+    src: url(for.text.ttf);
+}
